@@ -1,4 +1,4 @@
-[Next](introduction.md)
+[Next](Introduction.md)
 
 ***
 # CEOS Jupyter Notebooks Best Practice
@@ -14,16 +14,16 @@ Issue: Version X.X
 ----
 ## Table of Contents
 
-- [**1. Introduction**](#_rfk7gqopp4rk)
-  - [1.1. Purpose of the document](#_7yqbomebi3zx)
-  - [1.2. Document Overview](#_nml2e4msjy1w)
-  - [1.3. Acronyms](#_nml2e4msjy1w)
-  - [1.4. Definitions](#_nml2e4msjy1w)
-  - [1.5. Related Documents](#_nml2e4msjy1w)
-    - [1.5.1. Applicable Documents](#_nml2e4msjy1w)
-    - [1.5.2. Reference Documents](#_nml2e4msjy1w)
-- [**2. BACKGROUND**](#_d2wvr1e3a65t)
-- [**3. OBJECTIVES AND NEEDS**](#_sbbpys804brb)
+- [**1. Introduction**](Introduction.md)
+  - [1.1. Purpose of the document](Introduction.md#11-purpose-of-the-document)
+  - [1.2. Document Overview](Introduction.md#12-document-overview))
+  - [1.3. Acronyms](Introduction.md#13-acronyms)
+  - [1.4. Definitions](Introduction.md#14-definitions)
+  - [1.5. Related Documents](Introduction.md#15-related-documents)
+    - [1.5.1. Applicable Documents](Introduction.md#151-applicable-documents)
+    - [1.5.2. Reference Documents](Introduction.md#152-reference-documents)
+- [**2. BACKGROUND**](background.md)
+- [**3. OBJECTIVES AND NEEDS**]()
 - [**4. JUPYTER NOTEBOOK BEST PRACTICE CONTENT**](#_48p20v2b34ju)
   - [4.1. Notebook description, purpose and discoverability](#_waiyyl49e8ak)
   - [4.2. Structure, workflow, code and documentation](#_d1gesxgb0qzl)
@@ -39,4 +39,4 @@ Issue: Version X.X
 - [**Annex B: Use case scenarios**](#_w6b855vzvvd1)
 
 ***
-[Next](introduction.md)
+[Next](Introduction.md)
