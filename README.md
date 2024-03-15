@@ -16,7 +16,7 @@ Issue: Version X.X
 
 - [**1. Introduction**](Introduction.md)
   - [1.1. Purpose of the document](Introduction.md#11-purpose-of-the-document)
-  - [1.2. Document Overview](Introduction.md#12-document-overview))
+  - [1.2. Document Overview](Introduction.md#12-document-overview)
   - [1.3. Acronyms](Introduction.md#13-acronyms)
   - [1.4. Definitions](Introduction.md#14-definitions)
   - [1.5. Related Documents](Introduction.md#15-related-documents)
