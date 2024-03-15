@@ -42,6 +42,7 @@ Issue: Version X.X
   - [4.8 Publishing, Versioning and DOI](jupyter-notebook-best-practice-content.md#48-publishing-versioning-and-doi)
 - [**Annex A: More information on Jupyter Notebooks Platforms and Services**](annex/annex-a.md)
 - [**Annex B: Use case scenarios**](annex/annex-b.md)
+- [**Annex C: Notebook metadata**](annex/annex-c.md)
 
 ***
 [Next](Introduction.md)
