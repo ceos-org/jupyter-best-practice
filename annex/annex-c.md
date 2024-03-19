@@ -22,9 +22,45 @@ The following table provides an overview of mandatory and optional metadata keys
 The example below illustrates how the above properties (up to the tags section) can be added to the “metadata” property of the notebook file. 
 
 
-|<p>"metadata": {</p><p>`    `"author": "Julia Wagemann",</p><p>`    `"title": "Explore AC SAF Metop-A/B GOME-2 - Tropospheric Nitrogen Dioxide L2 - Part 1",</p><p>`    `"description": "This notebook is the first of two 'data discovery' modules on AC SAF Metop-A GOME-2 data. It shows you how AC SAF Metop-A GOME-2 Level 2 data are structured and how the variable 'Tropospheric Nitrogen Dioxide (NO2)' can be visualised.",</p><p>`    `"image": "../img/211\_img.png",</p><p>`    `"services": {</p><p>`        `"eumetsat": {</p><p>`            `"jupyter": {</p><p>`                `"link": "https://ltpy.adamplatform.eu/hub/user-redirect/lab/tree/20\_data\_exploration/211\_Metop-A\_GOME-2\_NO2Tropo\_L2\_load\_browse.ipynb",</p><p>`                `"service\_contact": "ltpy@meeo.it",</p><p>`                `"service\_provider": "MEEO s.r.l."</p><p>`            `},</p><p>`            `"git": {</p><p>`                `"link":"https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/20\_data\_exploration/211\_Metop-A\_GOME-2\_NO2Tropo\_L2\_load\_browse.ipynb",</p><p>`                `"service\_contact": "training@eumetsat.int",</p><p>`                `"service\_provider": "EUMETSAT"</p><p>`            `},</p><p>`            `"colab": {</p><p>`                `"link":"$$$",</p><p>`                `"service\_contact": "training@eumetsat.int",</p><p>`                `"service\_provider": "EUMETSAT"</p><p>`            `},</p><p>`            `"binder": {</p><p>`                `"link":"$$$",</p><p>`                `"service\_contact": "training@eumetsat.int",</p><p>`                `"service\_provider": "EUMETSAT"</p><p>`            `}</p><p>`        `}</p><p>`    `},</p><p>`    `"tags": {</p><p>`        `"domain": "Atmosphere",</p><p>`        `"subtheme": "Air quality",</p><p>`        `"service": "AC SAF",</p><p>`        `"platform": "Metop-A",</p><p>`        `"sensor": "GOME-2",</p><p>`        `"tags": "Nitrogen dioxide (tropospheric column)"</p><p>`    `},</p>|
-| :- |
-
+```
+"metadata": {
+    "author": "Julia Wagemann",
+    "title": "Explore AC SAF Metop-A/B GOME-2 - Tropospheric Nitrogen Dioxide L2 - Part 1",
+    "description": "This notebook is the first of two 'data discovery' modules on AC SAF Metop-A GOME-2 data. It shows you how AC SAF Metop-A GOME-2 Level 2 data are structured and how the variable 'Tropospheric Nitrogen Dioxide (NO2)' can be visualised.",
+    "image": "../img/211_img.png",
+    "services": {
+        "eumetsat": {
+            "jupyter": {
+                "link": "https://ltpy.adamplatform.eu/hub/user-redirect/lab/tree/20_data_exploration/211_Metop-A_GOME-2_NO2Tropo_L2_load_browse.ipynb",
+                "service_contact": "ltpy@meeo.it",
+                "service_provider": "MEEO s.r.l."
+            },
+            "git": {
+                "link":"https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/20_data_exploration/211_Metop-A_GOME-2_NO2Tropo_L2_load_browse.ipynb",
+                "service_contact": "training@eumetsat.int",
+                "service_provider": "EUMETSAT"
+            },
+            "colab": {
+                "link":"$$$",
+                "service_contact": "training@eumetsat.int",
+                "service_provider": "EUMETSAT"
+            },
+            "binder": {
+                "link":"$$$",
+                "service_contact": "training@eumetsat.int",
+                "service_provider": "EUMETSAT"
+            }
+        }
+    },
+    "tags": {
+        "domain": "Atmosphere",
+        "subtheme": "Air quality",
+        "service": "AC SAF",
+        "platform": "Metop-A",
+        "sensor": "GOME-2",
+        "tags": "Nitrogen dioxide (tropospheric column)"
+    },
+```
 
 ## OPTION 2: schema.org encoding
 
@@ -50,8 +86,89 @@ The following table provides an overview of mandatory and optional metadata keys
 The example below illustrates how the above properties (up to the keywords section) can be added to the “metadata” property of the notebook file.  The “kernelspec” and “language\_info” information is typically already present in the metadata object and the additional notebook metadata data can be added in front :
 
 
-|<p>{</p><p>`	`"metadata": {</p><p>`		`"identifier": "eum\_211\_metop-a\_gome-2\_no",</p><p>`		`"author": {</p><p>`			`"familyName": "Wagemann",</p><p>`			`"givenName": "Julia"</p><p>`		`},</p><p>`		`"name": "Explore AC SAF Metop-A/B GOME-2 - Tropospheric Nitrogen L2 - Part 1",</p><p>`		`"description": "This notebook is rhe first of two 'data discovery' modules on AC SAF Metop-A GOME-2 data.",</p><p>`		`"image": "../img/211\_img.png",</p><p>`		`"license": "https://spdx.org/licenses/MIT",</p><p>`		`"potentialAction": [</p><p>`			`{</p><p>`				`"name": "GitLab",</p><p>`				`"target": "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/20\_data\_exploration/211\_Metop-A\_GOME-2\_NO2Tropo\_L2\_load\_browse.ipynb",</p><p>`				`"provider": {</p><p>`					`"name": "EUMETSAT",</p><p>`					`"email": "training@eumetsat.int"</p><p>`				`}</p><p>`			`},</p><p>`			`{</p><p>`				`"name": "Git",</p><p>`				`"target": "https://gitlab.eumetsat.int/eumetlab/atmosphere/-/blob-master/20\_data\_exploration/211",</p><p>`				`"provider": {</p><p>`					`"name": "EUMETSAT",</p><p>`					`"email": "training@eumetsat.int"</p><p>`				`}</p><p>`			`},</p><p>`			`{</p><p>`				`"target": "$$$",</p><p>`				`"name": "Google Colab",</p><p>`				`"provider": {</p><p>`					`"name": "EUMETSAT",</p><p>`					`"email": "training@eumetsat.int"</p><p>`				`}</p><p>`			`},</p><p>`			`{</p><p>`				`"target": "$$$",</p><p>`				`"name": "Binder",</p><p>`				`"provider": {</p><p>`					`"name": "EUMETSAT",</p><p>`					`"email": "training@eumetsat.int"</p><p>`				`}</p><p>`			`}</p><p>`		`],</p><p>`		`"keywords": [</p><p>`			`{</p><p>`				`"name": "ATMOSPHERE",</p><p>`				`"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept\_scheme/sciencekeywords"</p><p>`			`},</p><p>`			`{</p><p>`				`"name": "AIR QUALITY",</p><p>`				`"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept\_scheme/sciencekeywords"</p><p>`			`},</p><p>`			`{</p><p>`				`"name": "METOP-A",</p><p>`				`"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept\_scheme/platforms"</p><p>`			`},</p><p>`			`{</p><p>`				`"name": "GOME-2",</p><p>`				`"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept\_scheme/instruments"</p><p>`			`},</p><p>`			`"AC SAF",</p><p>`			`"Nitrogen dioxide (tropospheric column)"</p><p>`		`],</p><p>`		`"kernelspec": {</p><p>`			`"display\_name": "Python 3 (ipykernel)",</p><p>`			`"language": "python",</p><p>`			`"name": "python3"</p><p>`		`},</p><p>`		`"language\_info": {</p><p>`			`"codemirror\_mode": {</p><p>`				`"name": "ipython",</p><p>`				`"version": 3</p><p>`			`},</p><p>`			`"file\_extension": ".py",</p><p>`			`"mimetype": "text/x-python",</p><p>`			`"name": "python",</p><p>`			`"nbconvert\_exporter": "python",</p><p>`			`"pygments\_lexer": "ipython3",</p><p>`			`"version": "3.10.4"</p><p>`		`}</p><p>`	`}</p><p>}</p><p></p>|
-| :- |
-
-
-
+```
+{
+	"metadata": {
+		"identifier": "eum_211_metop-a_gome-2_no",
+		"author": {
+			"familyName": "Wagemann",
+			"givenName": "Julia"
+		},
+		"name": "Explore AC SAF Metop-A/B GOME-2 - Tropospheric Nitrogen L2 - Part 1",
+		"description": "This notebook is rhe first of two 'data discovery' modules on AC SAF Metop-A GOME-2 data.",
+		"image": "../img/211_img.png",
+		"license": "https://spdx.org/licenses/MIT",
+		"potentialAction": [
+			{
+				"name": "GitLab",
+				"target": "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/20_data_exploration/211_Metop-A_GOME-2_NO2Tropo_L2_load_browse.ipynb",
+				"provider": {
+					"name": "EUMETSAT",
+					"email": "training@eumetsat.int"
+				}
+			},
+			{
+				"name": "Git",
+				"target": "https://gitlab.eumetsat.int/eumetlab/atmosphere/-/blob-master/20_data_exploration/211",
+				"provider": {
+					"name": "EUMETSAT",
+					"email": "training@eumetsat.int"
+				}
+			},
+			{
+				"target": "$$$",
+				"name": "Google Colab",
+				"provider": {
+					"name": "EUMETSAT",
+					"email": "training@eumetsat.int"
+				}
+			},
+			{
+				"target": "$$$",
+				"name": "Binder",
+				"provider": {
+					"name": "EUMETSAT",
+					"email": "training@eumetsat.int"
+				}
+			}
+		],
+		"keywords": [
+			{
+				"name": "ATMOSPHERE",
+				"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+			},
+			{
+				"name": "AIR QUALITY",
+				"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+			},
+			{
+				"name": "METOP-A",
+				"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/platforms"
+			},
+			{
+				"name": "GOME-2",
+				"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/instruments"
+			},
+			"AC SAF",
+			"Nitrogen dioxide (tropospheric column)"
+		],
+		"kernelspec": {
+			"display_name": "Python 3 (ipykernel)",
+			"language": "python",
+			"name": "python3"
+		},
+		"language_info": {
+			"codemirror_mode": {
+				"name": "ipython",
+				"version": 3
+			},
+			"file_extension": ".py",
+			"mimetype": "text/x-python",
+			"name": "python",
+			"nbconvert_exporter": "python",
+			"pygments_lexer": "ipython3",
+			"version": "3.10.4"
+		}
+	}
+}
+```
