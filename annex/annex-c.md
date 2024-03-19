@@ -10,7 +10,7 @@ The following table provides an overview of mandatory and optional metadata keys
 
 
 |**Metadata key**|**Description**|**Requirement level**|
-| :-: | :-: | :-: |
+| :-: | :- | :-: |
 |author|Author of the notebook|mandatory|
 |title|Title of the notebook|mandatory|
 |description|A short description of what the notebook is about (1-2 sentences max)|mandatory|
@@ -68,19 +68,19 @@ The following table provides an overview of mandatory and optional metadata keys
 
 
 |**Metadata key**|**Type**|**Description**|**Requirement level**|
-| :-: | :-: | :-: | :-: |
+| :-: | :-: | :- | :-: |
 |identifier|Text|Identifier of the notebook.|optional|
-|author|Person | [ Person ] |<p>Author(s) of the notebook. For example: </p><p></p><p>{<br>`   `"familyName": "Wagemann",<br>`   `"givenName": "Julia"</p><p>},</p><p></p>|mandatory|
+|author| Person \| [ Person ] |<p>Author(s) of the notebook. For example: </p><p></p><p>{<br>`   `"familyName": "Wagemann",<br>`   `"givenName": "Julia"</p><p>},</p><p></p>|mandatory|
 |name|Text|<p>Title of the notebook.  For example:</p><p></p><p>"Explore AC SAF Metop-A/B GOME-2 - Tropospheric Nitrogen L2 - Part 1"</p>|mandatory|
 |description|Text|<p>A short description of what the notebook is about (1-2 sentences max).  Example:</p><p></p><p>“This notebook is the first of two 'data discovery' modules on AC SAF Metop-A GOME-2 data. It shows you how AC SAF Metop-A GOME-2 Level 2 data are structured and how the variable 'Tropospheric Nitrogen Dioxide (NO2)' can be visualised.”</p><p></p>|mandatory|
 |image|URL|<p>Link to the thumbnail image (to be provided in the Gitlab / Github repository) - Dimensions: 400px x 250 px.</p><p></p>|optional|
 |potentialAction|[ Action ]|<p>Provide information about where the notebooks are published or can be executed.</p><p></p><p>Example 1 (GitLab):</p><p></p><p>{</p><p>`   `"name": "GitLab",</p><p>`   `"target": "https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/blob/master/20\_data\_exploration/211\_Metop-A\_GOME-2\_NO2Tropo\_L2\_load\_browse.ipynb",<br>`   `"provider": {<br>`      `"name": "EUMETSAT",<br>`      `"email": "training@eumetsat.int"<br>`   `}<br>}</p><p></p><p>Example 2 (Binder):</p><p>{</p><p>`   `"name": "Launch Binder",</p><p>`   `"target": "https://mybinder.org/v2/gh/ceos-seo/data\_cube\_notebooks/master?labpath=%2Fnotebooks%2Fwater%2Fcoastline%2FCoastline\_Classifier.ipynb"</p><p>}</p><p></p><p>Example 3 (Colab):</p><p>{</p><p>`   `"name": "Open in Google Colab",</p><p>`   `"target": "https://colab.research.google.com/github/ceos-seo/data\_cube\_notebooks/blob/master/notebooks/water/coastline/Coastline\_Classifier.ipynb"</p><p>}</p><p></p>|optional|
-|keywords|[ Text | DefinedTerm ]|<p>Set of additional keywords (DefinedTerm) from GCMD controlled vocabularies to identify:</p><p>- Domain and subtheme as science keyword.</p><p>- Platform (e.g. satellite)</p><p>- Instrument</p><p></p><p>And additional free text keywords.  Each DefinedTerm may include a “name” (mandatory); “@id” (optional) and “inDefinedTermSet” (mandatory) property.</p>|mandatory|
+|keywords| [ Text \| DefinedTerm ]|<p>Set of additional keywords (DefinedTerm) from GCMD controlled vocabularies to identify:</p><p>- Domain and subtheme as science keyword.</p><p>- Platform (e.g. satellite)</p><p>- Instrument</p><p></p><p>And additional free text keywords.  Each DefinedTerm may include a “name” (mandatory); “@id” (optional) and “inDefinedTermSet” (mandatory) property.</p>|mandatory|
 |domain|DefinedTerm|<p>Example:</p><p></p><p>{</p><p>"name": "ATMOSPHERE",</p><p>"@id": "https://gcmd.earthdata.nasa.gov/kms/concept/c47f6052-634e-40ef-a5ac-13f69f6f4c2a",</p><p>`				`"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept\_scheme/sciencekeywords"</p><p>}</p>||
 |platform|DefinedTerm|<p>Example:</p><p></p><p>{</p><p>"name": "METOP-A",</p><p>"@id": "https://gcmd.earthdata.nasa.gov/kms/concept/8143808e-1005-4fed-a469-c2bd5f1521bf",<br>"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept\_scheme/platforms"</p><p>}</p><p></p>||
 |instrument|DefinedTerm|<p>Example:</p><p></p><p>{</p><p>"name": "GOME-2",</p><p>"@id": "https://gcmd.earthdata.nasa.gov/kms/concept/5eaf2209-904b-49c8-b99f-1e8550cf95d0",</p><p>"inDefinedTermSet": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept\_scheme/instruments"</p><p>},</p><p></p>||
 |tags|Text|<p>Example:</p><p></p><p>"AC SAF", "Nitrogen dioxide (tropospheric column)"</p>||
-|license|URL | Text|<p>URL or SPDX identifier of the license, e.g. "<https://spdx.org/licenses/MIT>" or “MIT”</p><p></p>|optional|
+|license|URL \| Text|<p>URL or SPDX identifier of the license, e.g. "<https://spdx.org/licenses/MIT>" or “MIT”</p><p></p>|optional|
 
 
 The example below illustrates how the above properties (up to the keywords section) can be added to the “metadata” property of the notebook file.  The “kernelspec” and “language\_info” information is typically already present in the metadata object and the additional notebook metadata data can be added in front :
