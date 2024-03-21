@@ -20,6 +20,7 @@ Notebooks that are considered to be tools require additional descriptive informa
 **[ask Ben Loveday for EUMETSAT schema amd reference]**
 
 To achieve a higher level of discoverability, it is recommended that CEOS agencies compile metadata in compliance with the "CEOS Service Discovery Best Practice" [[RD1]](./Introduction.md#152-reference-documents).
+It is recommended that it is embedded as machine-readable metadata in the [“metadata” section](https://ipython.org/ipython-doc/3/notebook/nbformat.html#top-level-structure) of the top-level structure of the Notebook. 
 
 It is recommended to use the schema.org [[RD2]](./Introduction.md#152-reference-documents) (CreativeWork) encoding for the embedded metadata.
 See Annex C for more information and an embedded metadata  example.
