@@ -23,7 +23,7 @@ To achieve a higher level of discoverability, it is recommended that CEOS agenci
 It is recommended that it is embedded as machine-readable metadata in the [“metadata” section](https://ipython.org/ipython-doc/3/notebook/nbformat.html#top-level-structure) of the top-level structure of the Notebook. 
 
 It is recommended to use the schema.org [[RD2]](./Introduction.md#152-reference-documents) (CreativeWork) encoding for the embedded metadata.
-See Annex C for more information and an embedded metadata  example.
+See [Annex C](./annex/annex-c.md) for more information and an embedded metadata  example.
 Adherence to the subsequent sections of this Best practice will generate sufficient metadata to ensure minimal compliance.
 
 ## 4.2 Structure, workflow, code and documentation
