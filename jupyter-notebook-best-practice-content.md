@@ -19,7 +19,7 @@ If a notebook is expected to generate multiple datasets or research outputs by m
 Notebooks that are considered to be tools require additional descriptive information to make them discoverable for new users. Additional information on input datasets, domain/thematic, application, function and skill level are desirable to ensure that notebooks are targeted at the correct communities.
 **[ask Ben Loveday for EUMETSAT schema amd reference]**
 
-To achieve a higher level of discoverability, it is recommended that CEOS agencies compile metadata in compliance with the "CEOS Service Discovery Best Practice" [[RD1]](./Introduction.md#RD1).
+To achieve a higher level of discoverability, it is recommended that CEOS agencies compile metadata in compliance with the "CEOS Service Discovery Best Practice" [[RD1]](./Introduction.md#152-reference-documents).
 
 It is recommended to use the schema.org [[RD2]](./Introduction.md#RD2) (CreativeWork) encoding for the embedded metadata.
 See Annex C for more information and an embedded metadata  example.
