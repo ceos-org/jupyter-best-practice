@@ -39,9 +39,10 @@ While Jupyter Notebooks can be a valuable resource, there are issues surrounding
 ### 1.5.1 Applicable Documents 
 ### 1.5.2 Reference Documents 
 
-|RD1 <a name="RD1"></a> |<p>CEOS Service Discovery Best Practice</p><p><https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS-Service-Discovery-Best-Practices.pdf> </p>|
-| :- | :- |
-|RD2 <a name="RD2"></a>  |https://schema.org/|
+| **ID**  | **Title** | 
+| -------- | --------- | 
+| RD1 <a name="RD1"></a> | CEOS Service Discovery Best Practice, <https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS-Service-Discovery-Best-Practices.pdf> |
+| RD2 <a name="RD2"></a> | https://schema.org/ |
 
 ***
 [Previous](README.md) | [Table of contents](README.md) | [Next](objectives-needs.md)
