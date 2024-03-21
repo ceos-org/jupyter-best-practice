@@ -21,7 +21,7 @@ Notebooks that are considered to be tools require additional descriptive informa
 
 To achieve a higher level of discoverability, it is recommended that CEOS agencies compile metadata in compliance with the "CEOS Service Discovery Best Practice" [[RD1]](./Introduction.md#152-reference-documents).
 
-It is recommended to use the schema.org [[RD2]](./Introduction.md#RD2) (CreativeWork) encoding for the embedded metadata.
+It is recommended to use the schema.org [[RD2]](./Introduction.md#152-reference-documents) (CreativeWork) encoding for the embedded metadata.
 See Annex C for more information and an embedded metadata  example.
 Adherence to the subsequent sections of this Best practice will generate sufficient metadata to ensure minimal compliance.
 
