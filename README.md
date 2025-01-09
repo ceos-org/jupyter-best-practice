@@ -1,5 +1,3 @@
-[Next](Introduction.md)
-
 ***
 # CEOS Jupyter Notebooks Best Practice
 
@@ -8,41 +6,12 @@ Tech Expo Interest Group
 
 Doc. Ref.: CEOS/
 
-Date: XX  20XX
+Date: January 9th  2025
 
-Issue: Version X.X
+Issue: Version 0.x
 ----
-## Table of Contents
+This github was archived.
 
-- [**1. Introduction**](Introduction.md)
-  - [1.1. Purpose of the document](Introduction.md#11-purpose-of-the-document)
-  - [1.2. Document Overview](Introduction.md#12-document-overview)
-  - [1.3. Acronyms](Introduction.md#13-acronyms)
-  - [1.4. Definitions](Introduction.md#14-definitions)
-  - [1.5. Related Documents](Introduction.md#15-related-documents)
-    - [1.5.1. Applicable Documents](Introduction.md#151-applicable-documents)
-    - [1.5.2. Reference Documents](Introduction.md#152-reference-documents)
-- [**2. BACKGROUND**](background.md)
-- [**3. OBJECTIVES AND NEEDS**](objectives-and-needs.md)
-- [**4. JUPYTER NOTEBOOK BEST PRACTICE CONTENT**](jupyter-notebook-best-practice-content.md)
-  - [4.1. Notebook description, purpose and discoverability](jupyter-notebook-best-practice-content.md#41-notebook-description-purpose-and-discoverability)
-  - [4.2. Structure, workflow, code and documentation](jupyter-notebook-best-practice-content.md#42-structure-workflow-code-and-documentation))
-  - [4.3. Technical dependencies and Virtual Environments](jupyter-notebook-best-practice-content.md#43-technical-dependencies-and-virtual-environments)
-    - [Universal and Notebook Specific Dependencies](jupyter-notebook-best-practice-content.md#universal-and-notebook-specific-dependencies)
-    - [Platform/Service Specific Dependencies](jupyter-notebook-best-practice-content.md#platformservice-specific-dependencies)
-  - [4.4. Citation, access to and navigation of input data](jupyter-notebook-best-practice-content.md#44-citation-access-to-and-navigation-of-input-data)
-  - [4.5. Association with archived data](jupyter-notebook-best-practice-content.md#45-association-with-archived-data)
-  - [4.6 Archival, Preservation and Retirement](jupyter-notebook-best-practice-content.md#46-archival-preservation-and-retirement)
-    - [Review of notebooks](jupyter-notebook-best-practice-content.md#review-of-notebooks)
-    - [Preservation Strategies](jupyter-notebook-best-practice-content.md#preservation-strategies)
-    - [Graceful Retirement](jupyter-notebook-best-practice-content.md#graceful-retirement)
-  - [4.7 Open source software licensing](jupyter-notebook-best-practice-content.md#47-open-source-software-licensing)
-    - [Documentation](jupyter-notebook-best-practice-content.md#documentation)
-    - [Software](jupyter-notebook-best-practice-content.md#software)
-  - [4.8 Publishing, Versioning and DOI](jupyter-notebook-best-practice-content.md#48-publishing-versioning-and-doi)
-- [**Annex A: More information on Jupyter Notebooks Platforms and Services**](annex/annex-a.md)
-- [**Annex B: Use case scenarios**](annex/annex-b.md)
-- [**Annex C: Notebook metadata**](annex/annex-c.md)
+Please visit [CEOS/WGISS](https://ceos.org/ourwork/workinggroups/wgiss/) website if you want to get recent information about **CEOS Jupyter Notebook Best Practice**.
 
 ***
-[Next](Introduction.md)
